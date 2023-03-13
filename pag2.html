@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Netflix</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'netflix1';
+            src: url(fontes/BebasNeue-Regular.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+            @font-face {
+            font-family: 'netflix2' ;
+            src: url(fontes/Netflix\ Sans\ Medium.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+         body {
+            background-color: rgb(20, 20, 20);
+            font-family: 'netflix1';
+            font-size: normal;
+         }
+         header h1 {
+            color: rgb(229, 9, 20);
+            padding-left: 50px;
+
+         }
+         nav a {
+            font-family: 'netflix2';
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            padding-left: 20px;
+         }
+         nav a:hover {
+            font-weight: bold;
+         }
+         a.title {
+            font-family: 'netflix1';
+            color: rgb(229, 9, 20);
+            font-size: 2em;
+         }
+         ul {
+            columns: 2;
+            list-style: none;
+
+         }
+         li.segunda {
+            padding-left: 600px;
+            padding-top: 17px;
+         }
+        figure img {
+            width: 100%;
+            max-width: 1887px;
+        }
+        #container {
+        display: inline-block;
+        position: relative;
+        margin: 0px;
+        }
+
+        #container figcaption {
+        position: absolute;
+        bottom: 200px;
+        left: 20px;
+        font-size: 2em;
+        color: white;
+        text-shadow: 0px 0px 5px black;
+        }
+        figcaption h1{
+            margin: 0px;
+        }
+        figcaption p {
+            margin: 0px;
+        }
+        p.serie {
+            color: rgb(185, 184, 184);
+        }
+        p.serie::before {
+            content: "N ";
+            color: rgb(229, 9, 20);
+            font-size: 2em;
+        }
+        p.top8 {
+            font-size: 1.3em;
+            font-family: 'netflix2';
+        }
+        p.top8::before {
+            content: "Top8 ";
+            color: rgb(229, 9, 20);
+            font-size: 1.5em;
+        }
+        p.texto {
+            font-size: 0.7em;
+            font-family: 'netflix2';
+            margin-top: 30px;
+        }
+        figcaption a {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            font-family: 'netflix2';
+            text-shadow: none;
+        }
+
+        figcaption a.ver {
+            background-color: white;
+            padding: 5px 15px;
+            border-radius: 10px;
+            color: black;
+            font-size: 0.8em;
+        }
+        figcaption a.informa {
+            background-color: gray;
+            padding: 5px 10px;
+            border-radius: 10px;
+            color: white;
+            font-size: 0.8em;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav> 
+           <ul>
+               <li>
+                   <a href="index.html" class="title">NETFLIX</a>
+                   <a href="#">Início</a>
+                   <a href="#">Séries</a>
+                   <a href="#">Filmes</a>
+                   <a href="#">Bombando</a>
+                   <a href="#">Minha lista</a>
+                   <a href="#">Navegar por idioma</a>
+               </li>
+               <li class="segunda">
+                    <a href="#">&#128269 Pesquisar</a>
+                    <a href="#">Infantil</a>
+               </li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <figure id="container">
+            <img src="https://static01.nyt.com/images/2018/11/25/opinion/25SUDERMAN/25SUDERMAN-superJumbo.jpg" />  
+            <figcaption>
+                    <p class="serie">Série</p> 
+                    <H1>RED DEAD REDEMPTION II</H1> 
+                    <p>
+                        <P class="top8"> Top 8 em séries hoje</P> 
+                        <p class="texto">
+                            Depois de tudo dar errado durante um roubo <br>
+                            em uma cidade do oeste chamada Blackwater, <br>
+                            Arthur Morgan e a gangue Van der Linde são forçados a fugir.
+                        </p>
+                        <a href="#" class="ver">Assistir</a>
+                        <a href="#" class="informa">Mais Informações</a>
+                    </p>
+                    
+            </figcaption>
+          </figure>
+    </main>
+</body>
+</html>

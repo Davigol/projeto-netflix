@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'netflix1';
+            src: url(fontes/BebasNeue-Regular.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'netflix2' ;
+            src: url(fontes/Netflix\ Sans\ Medium.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            background-color: rgb(20, 20, 20);
+            font-family: 'netflix1';
+            color: white;
+            text-align: center;
+            padding-top: 5%;
+            font-size: 3vw;
+            
+        }
+        ul {
+            columns: 4;
+            list-style: none;
+            margin: auto;
+
+        }
+        div.primeiro {
+            display: inline-block;
+        }
+        ul img {
+            min-width: 50px;
+            max-width: 250px;
+            max-height: 250px;
+            min-height: 50px;
+            width: 100%;
+            border-radius: 5px;
+        }
+        ul a {
+            text-decoration: none;
+            color: white;
+        }
+        ul a:hover {
+            font-weight: bold;
+            color: whitesmoke;
+        }
+        ul img:hover {
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quem está assistindo?</h1>
+        <ul>
+            <li>
+                <a href="pag2.html">
+                    <div class="primeiro"> <img src="https://i.pinimg.com/564x/96/dc/a6/96dca68ee0145c57dc93959f8b613452.jpg" alt=""></div>
+                    <div class="primeiro"><p>Convidado 1</p></div>
+                </a>
+            </li>
+
+            <li>
+                <a href="pag2.html">
+                    <div class="primeiro"> <img src="https://i.pinimg.com/564x/92/5c/45/925c452eed25ffa977feabedb85625b5.jpg" alt="" ></div>
+                    <div class="primeiro"><p>Convidado 2</p></div>
+                </a>
+            </li>
+
+            <li>
+                <a href="pag2.html">
+                    <div class="primeiro"> <img src="https://i.pinimg.com/736x/22/88/48/2288485a80cfc23d079d3e59f5732651.jpg" alt=""></div>
+                    <div class="primeiro"><p>Convidado 3</p></div>
+                </a>
+            </li>
+
+            <li>
+                <a href="pag2.html">
+                    <div class="primeiro"> <img src="https://i.pinimg.com/564x/08/81/41/0881411c62c6b7528fdad1a89440ebd4.jpg" alt=""></div>
+                    <div class="primeiro"><p>Crianças</p></div>
+                </a>
+            </li>
+        </ul>
+</body>
+</html>
